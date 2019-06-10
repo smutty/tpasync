@@ -1,7 +1,6 @@
 #pragma once
 
 #include "internals/thread_pool.h"
-#include <functional>
 #include <future>
 
 namespace tp {
