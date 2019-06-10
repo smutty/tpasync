@@ -4,7 +4,8 @@ C++ thread pool based async exercise
 ## test_quicksort output
 
 Hardware threads: 4
-Seq quicksort 		400000 items |	time elapsed (ms): 5292
+
+```Seq quicksort 		400000 items |	time elapsed (ms): 5292
 std::async quicksort 	400000 items |	time elapsed (ms): 5677
 tp::async quicksort 	400000 items |	time elapsed (ms): 3222
 -----------------
@@ -49,3 +50,4 @@ tp::async quicksort 	400000 items |	time elapsed (ms): 5370
 ## test_async output
 std::async time elapsed (ms): 1687
 tp::async time elapsed (ms): 65
+```
